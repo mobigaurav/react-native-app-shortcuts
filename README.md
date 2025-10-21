@@ -1,8 +1,8 @@
-# react-native-app-shortcuts
+# @mobigaurav/react-native-app-shortcuts
 
-[![npm version](https://badge.fury.io/js/react-native-app-shortcuts.svg)](https://badge.fury.io/js/react-native-app-shortcuts)
+[![npm version](https://badge.fury.io/js/@mobigaurav%2Freact-native-app-shortcuts.svg)](https://badge.fury.io/js/@mobigaurav%2Freact-native-app-shortcuts)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Platform](https://img.shields.io/badge/platform-iOS%20%7C%20Android-lightgrey.svg)](https://github.com/yourusername/react-native-app-shortcuts)
+[![Platform](https://img.shields.io/badge/platform-iOS%20%7C%20Android-lightgrey.svg)](https://github.com/mobigaurav/react-native-app-shortcuts)
 
 A comprehensive React Native library for implementing native app shortcuts on both iOS and Android platforms.
 
@@ -26,9 +26,9 @@ If this library helps you build amazing apps, consider buying me a coffee!
 ## 📦 Installation
 
 ```bash
-npm install react-native-app-shortcuts
+npm install @mobigaurav/react-native-app-shortcuts
 # or
-yarn add react-native-app-shortcuts
+yarn add @mobigaurav/react-native-app-shortcuts
 ```
 
 > **Note**: This library requires React Native 0.60+ and uses auto-linking.
@@ -37,7 +37,7 @@ yarn add react-native-app-shortcuts
 
 1. **Add to Podfile** (if using manual linking):
 ```ruby
-pod 'RNAppShortcuts', :path => '../node_modules/react-native-app-shortcuts'
+pod 'RNAppShortcuts', :path => '../node_modules/@mobigaurav/react-native-app-shortcuts'
 ```
 
 2. **Update AppDelegate.m**:
@@ -141,7 +141,7 @@ try {
 ## 🚀 Quick Start
 
 ```javascript
-import AppShortcuts from 'react-native-app-shortcuts';
+import AppShortcuts from '@mobigaurav/react-native-app-shortcuts';
 
 // 1. Set up shortcuts
 AppShortcuts.setShortcuts([
@@ -257,7 +257,7 @@ npm install
 
 ## 📄 License
 
-MIT © [Your Name](https://github.com/yourusername)
+MIT © [Gaurav Kumar](https://github.com/mobigaurav)
 
 ## 🙏 Acknowledgments
 
@@ -268,8 +268,8 @@ MIT © [Your Name](https://github.com/yourusername)
 ## 📞 Support
 
 - 📧 **Email**: mobigaurav@gmail.com
-- 🐛 **Issues**: [GitHub Issues](https://github.com/yourusername/react-native-app-shortcuts/issues)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/yourusername/react-native-app-shortcuts/discussions)
+- 🐛 **Issues**: [GitHub Issues](https://github.com/mobigaurav/react-native-app-shortcuts/issues)
+- 💬 **Discussions**: [GitHub Discussions](https://github.com/mobigaurav/react-native-app-shortcuts/discussions)
 
 ---
 

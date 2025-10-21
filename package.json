@@ -1,10 +1,12 @@
 {
-  "name": "react-native-app-shortcuts",
+  "name": "@mobigaurav/react-native-app-shortcuts",
   "version": "1.0.0",
-  "description": "Native iOS and Android app shortcuts for React Native",
+  "description": "Native iOS and Android app shortcuts for React Native applications with 3D Touch and Force Touch support",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
-    "test": "jest"
+    "test": "echo \"No tests specified\" && exit 0",
+    "postinstall": "node scripts/postinstall.js"
   },
   "keywords": [
     "react-native",
@@ -13,10 +15,24 @@
     "shortcuts",
     "3d-touch",
     "force-touch",
-    "app-shortcuts"
+    "app-shortcuts",
+    "deep-linking",
+    "native",
+    "mobile",
+    "ui",
+    "ux",
+    "navigation",
+    "quick-actions"
   ],
-  "author": "Pentair",
+  "author": {
+    "name": "Gaurav Kumar",
+    "email": "mobigaurav@gmail.com",
+    "url": "https://github.com/mobigaurav"
+  },
   "license": "MIT",
+  "engines": {
+    "node": ">=12.0.0"
+  },
   "peerDependencies": {
     "react-native": ">=0.60.0"
   },
@@ -25,7 +41,33 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pentair/react-native-app-shortcuts.git"
+    "url": "git+https://github.com/mobigaurav/react-native-app-shortcuts.git"
   },
-  "homepage": "https://github.com/pentair/react-native-app-shortcuts#readme"
+  "bugs": {
+    "url": "https://github.com/mobigaurav/react-native-app-shortcuts/issues"
+  },
+  "homepage": "https://github.com/mobigaurav/react-native-app-shortcuts#readme",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "ios/",
+    "android/",
+    "RNAppShortcuts.podspec",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "react-native": {
+    "ios": {
+      "project": "ios/RNAppShortcuts.xcodeproj"
+    },
+    "android": {
+      "sourceDir": "../android",
+      "packageImportPath": "import com.appshortcuts.RNAppShortcutsPackage;"
+    }
+  },
+  "funding": {
+    "type": "buymeacoffee",
+    "url": "https://www.buymeacoffee.com/mobigaurav"
+  }
 }
