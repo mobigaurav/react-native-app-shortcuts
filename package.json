@@ -1,0 +1,31 @@
+{
+  "name": "react-native-app-shortcuts",
+  "version": "1.0.0",
+  "description": "Native iOS and Android app shortcuts for React Native",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "react-native",
+    "ios",
+    "android",
+    "shortcuts",
+    "3d-touch",
+    "force-touch",
+    "app-shortcuts"
+  ],
+  "author": "Pentair",
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native": ">=0.60.0"
+  },
+  "devDependencies": {
+    "react-native": "^0.70.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pentair/react-native-app-shortcuts.git"
+  },
+  "homepage": "https://github.com/pentair/react-native-app-shortcuts#readme"
+}
