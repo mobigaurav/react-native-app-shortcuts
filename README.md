@@ -261,7 +261,7 @@ MIT © [Gaurav Kumar](https://github.com/mobigaurav)
 
 ## 🙏 Acknowledgments
 
-- Originally developed for enterprise use at Pentair
+- Originally developed for enterprise use
 - Inspired by the React Native community's need for native shortcuts
 - Thanks to all contributors and users!
 
